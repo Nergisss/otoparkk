@@ -1,0 +1,52 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+/*
+.icon {
+  padding: 14px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+*/
+.input-field {
+  margin-right:7%;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity:1;
+}
+
+.button2 {
+	background-color:#F00;
+}
+.button:hover {
+ background-color:#DADADA;
+ color:black;
+ 
+}
